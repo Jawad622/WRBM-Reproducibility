@@ -1,0 +1,5 @@
+nltk.corpus import wordnet as wn
+numpy
+pandas
+scikit-learn
+hashedindex
