@@ -592,7 +592,7 @@ df_RelBenchmarks=pd.read_csv("Relatedness/dfNew_Disamb_MKR_benchMarks_Rel.txt",s
 df=get_RelBenchmark(benchMark)
 
 
-with open ("WLFM_Results_Latest/"+benchMark+".txt","w",encoding="utf-8") as flw:
+with open ("WLFM_Results/"+benchMark+".txt","w",encoding="utf-8") as flw:
 
     dataline="rid\tWNCon1\tWNCon2\torgCon1\torgCon2\tHJ\tCase1(All)\tCase2(G)\tCase3(L)\tCase4(Ex)\tCase5(Hr)\tCase6(Hp)\tCase7(Ho)\tCase8(M)\tCase9(Der)\tCase10(Sis)\tCase11(D)\tCase12(D(NEx))\tCase13(H)\tCase14(NH)\tCase15(NH(NDer))\tCase16(DH)\tCase17(DH(NEx))\tCase18(DNH)\tCase19(DNH(NEx,Der))\tCase20(HNH)\tCase21(HNH(ND))\tCase22(S)"    
     flw.write(dataline+"\n")
