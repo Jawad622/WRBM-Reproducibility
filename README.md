@@ -5,9 +5,11 @@ This repository reproduces results for WRBM model on similarity (MC, RG65, WS203
 
 ## Data
 This code uses following files:
-1. Relatedness_Benchmarks
-2. Similarity_Benchmarks
-3. AlldsTokenDF
+1. Scripts/WRBM_Similarity_Becnmarks_SS_Computation
+2. Scripts/WRBM_Relatedness_Becnmarks_SS_Computation
+3. Relatedness_Benchmarks
+4. Similarity_Benchmarks
+5. AlldsTokenDF
 
 ## Installation
 pip install -r requirements.txt
